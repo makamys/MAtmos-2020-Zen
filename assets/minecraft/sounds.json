@@ -13,6 +13,13 @@
     ],
     "subtitle": "subtitles.weather.rain"
   },
+  "ambient.weather.rain": {
+    "category": "weather",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
   "matmos_hl.loop.wind_novege": {
     "category": "ambient",
     "sounds": [
@@ -176,7 +183,7 @@
     ]
   },
   "matmos_hl.loop.underwater_direct": {
-    "category": "ambient",
+    "category": "master",
     "sounds": [
       {
         "name": "loop/underwater_direct",

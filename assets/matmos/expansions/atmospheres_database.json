@@ -168,6 +168,12 @@
       "symbol": "GREATER",
       "value": "512"
     },
+    "No grass (S)": {
+      "sheet": "scan_small",
+      "index": "minecraft:grass",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
     "Grass 8% (S)": {
       "sheet": "scan_small_p1k",
       "index": "minecraft:grass",
@@ -502,7 +508,9 @@
         "Air 20% (L)",
         "Grass 512 (L)"
       ],
-      "no": []
+      "no": [
+        "No grass (S)"
+      ]
     },
     "Plains (S)": {
       "yes": [

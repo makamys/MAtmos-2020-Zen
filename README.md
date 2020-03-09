@@ -3,3 +3,6 @@ A default soundpack for MAtmos featuring seamless loops and indoors/outdoors var
 
 ## Demo video
 [![](http://img.youtube.com/vi/3F85g3e2_MY/0.jpg)](http://www.youtube.com/watch?v=3F85g3e2_MY "")
+
+## Downloads
+Downloads are available on [the releases tab](https://github.com/makamys/MSI-Conversion/releases).

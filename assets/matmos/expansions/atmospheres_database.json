@@ -14,7 +14,7 @@
     },
     "Water 200 (S)": {
       "sheet": "scan_small",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "200"
     },
@@ -26,13 +26,13 @@
     },
     "Water 10k (L)": {
       "sheet": "scan_large",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "10000"
     },
     "Alot of water (S)": {
       "sheet": "scan_small_p1k",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "500"
     },
@@ -122,13 +122,13 @@
     },
     "No water above (R)": {
       "sheet": "scan_raycast_above",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "EQUAL",
       "value": "0"
     },
     "Is Underwater Indirectly": {
       "sheet": "scan_large_above",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "15000"
     },
@@ -140,31 +140,31 @@
     },
     "Nearby water (R)": {
       "sheet": "scan_raycast_w",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "250"
     },
     "Large water nearby (R)": {
       "sheet": "scan_raycast_w",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "2500"
     },
     "Large water (R)": {
       "sheet": "scan_raycast",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "72"
     },
     "Large water (S)": {
       "sheet": "scan_small_p1k",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "100"
     },
     "Large water (L)": {
       "sheet": "scan_large_p1k",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "60"
     },
@@ -230,7 +230,7 @@
     },
     "Water 10% (L)": {
       "sheet": "scan_large_p1k",
-      "index": "minecraft:water",
+      "index": "minecraft:water^0",
       "symbol": "GREATER",
       "value": "100"
     },
@@ -1475,11 +1475,7 @@
       "entries": [
         {
           "sheet": "scan_small",
-          "index": "minecraft:flowing_water"
-        },
-        {
-          "sheet": "scan_small",
-          "index": "minecraft:water"
+          "index": "minecraft:water^0"
         }
       ]
     },

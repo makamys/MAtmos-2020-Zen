@@ -42,6 +42,12 @@
       "symbol": "GREATER",
       "value": "0"
     },
+    "Contact torch (1)": {
+      "sheet": "block_contact",
+      "index": "minecraft:torch",
+      "symbol": "GREATER",
+      "value": "0"
+    },
     "Nearby land (L)": {
       "sheet": "_DYNAMIC",
       "index": "Ground (Large)",
@@ -369,6 +375,11 @@
     "Torches": {
       "yes": [
         "Nearby torch (1)"
+      ]
+    },
+    "Torches contact": {
+      "yes": [
+        "Contact torch (1)"
       ]
     },
     "Cold area": {
@@ -944,28 +955,31 @@
       "allow": [
         "Torches"
       ],
-      "fadein": 2.0,
-      "fadeout": 2.0,
-      "play_deep_indoors": true,
-      "stream_pair": {
-        "indoor": [
-          {
-            "path": "matmos_hl/loop/torch.ogg",
-            "vol": 0.16,
-            "pitch": 1.0,
-            "looping": true,
-            "pause": false
-          }
-        ],
-        "outdoor": [
-          {
-            "path": "matmos_hl/loop/torch_nobass.ogg",
-            "vol": 0.23,
-            "pitch": 1.0,
-            "looping": true,
-            "pause": false
-          }
-        ]
+      "restrict": [
+        "Torches contact"
+      ],
+      "fadein": 1.0,
+      "fadeout": 1.0,
+      "stream": {
+          "path": "matmos_hl/loop/torch.ogg",
+          "vol": 0.045,
+          "pitch": 1.0,
+          "looping": true,
+          "pause": false
+      }
+    },
+    "Torches contact": {
+      "allow": [
+        "Torches contact"
+      ],
+      "fadein": 1.0,
+      "fadeout": 1.0,
+      "stream": {
+          "path": "matmos_hl/loop/torch.ogg",
+          "vol": 0.08,
+          "pitch": 1.0,
+          "looping": true,
+          "pause": false
       }
     },
     "Cave A": {

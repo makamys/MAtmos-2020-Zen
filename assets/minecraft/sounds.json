@@ -307,5 +307,13 @@
       "stream": true
       }
     ]
+  },
+  "matmos.zen.sfx.torchlit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "sfx/torchlit"
+      }
+    ]
   }
 }

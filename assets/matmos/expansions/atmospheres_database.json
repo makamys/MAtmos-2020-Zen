@@ -66,9 +66,9 @@
       "symbol": "EQUAL",
       "value": "1"
     },
-    "Biome can rain": {
+    "Can rain here": {
       "sheet": "w_general",
-      "index": "biome_can_rain",
+      "index": "can_rain_here",
       "symbol": "EQUAL",
       "value": "1"
     },
@@ -494,10 +494,10 @@
       ],
       "no": ["_FLOOD_SCAN_DEEP_INDOORS"]
     },
-    "Rain in biome": {
+    "Rain here": {
       "yes": [
         "Is Raining",
-        "Biome can rain"
+        "Can rain here"
       ],
       "no": [
         "Can snow here"
@@ -506,7 +506,7 @@
     "Rain outdoors": {
       "yes": [
         "Is Raining",
-        "Biome can rain",
+        "Can rain here",
         "Can rain on"
       ],
       "no": [
@@ -516,7 +516,7 @@
     "Rain indoors": {
       "yes": [
         "Is Raining",
-        "Biome can rain"
+        "Can rain here"
       ],
       "no": [
         "Can snow here",
@@ -526,7 +526,7 @@
     "Snowing outdoors": {
       "yes": [
         "Is Raining",
-        "Biome can rain",
+        "Can rain here",
         "Can snow here",
         "Can rain on"
       ],
@@ -568,7 +568,7 @@
     "Raining in a house with windows": {
       "yes": [
         "Is Raining",
-        "Biome can rain",
+        "Can rain here",
         "Windows (8)"
       ],
       "no": [
@@ -682,7 +682,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "event_pair": {
@@ -731,7 +731,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "fadein": 3.0,
@@ -762,7 +762,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "event_pair": {
@@ -823,7 +823,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "fadein": 3.0,
@@ -847,7 +847,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "fadein": 3.0,
@@ -886,7 +886,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome",
+        "Rain here",
         "The End"
       ],
       "fadein": 3.0,
@@ -983,7 +983,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
-        "Rain in biome"
+        "Rain here"
       ],
       "fadein": 5.0,
       "fadeout": 5.0,

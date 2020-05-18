@@ -252,6 +252,18 @@
       "symbol": "LESSER",
       "value": "50"
     },
+    "Random 15s 30%": {
+      "sheet": "timed_random",
+      "index": "timed_random_00m15s",
+      "symbol": "LESSER",
+      "value": "30"
+    },
+    "Random 10s 20%": {
+      "sheet": "timed_random",
+      "index": "timed_random_00m10s",
+      "symbol": "LESSER",
+      "value": "15"
+    },
     "Y>100": {
       "sheet": "cb_pos",
       "index": "y",
@@ -389,6 +401,16 @@
         "Cold world (S)"
       ],
       "no": []
+    },
+    "Random gust": {
+      "yes": [
+        "Random 15s 30%"
+      ]
+    },
+    "Strong random gust": {
+      "yes": [
+        "Random 10s 20%"
+      ]
     },
     "Forest": {
       "yes": [
@@ -865,7 +887,8 @@
     },
     "Weak winter wind": {
       "allow": [
-        "Cold area"
+        "Cold area",
+        "Random gust"
       ],
       "restrict": [
         "Nighttime",
@@ -886,7 +909,8 @@
     },
     "Medium winter wind": {
       "allow": [
-        "Cold area"
+        "Cold area",
+        "Random gust"
       ],
       "restrict": [
         "Daytime",
@@ -909,7 +933,8 @@
     },
     "Strong winter wind": {
       "allow": [
-        "High altitude"
+        "High altitude",
+        "Strong random gust"
       ],
       "restrict": [
         "Is Underwater Directly",

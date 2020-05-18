@@ -962,7 +962,7 @@
       "fadeout": 1.0,
       "stream": {
           "path": "matmos_hl/loop/torch.ogg",
-          "vol": 0.045,
+          "vol": 0.032,
           "pitch": 1.0,
           "looping": true,
           "pause": false
@@ -976,7 +976,7 @@
       "fadeout": 1.0,
       "stream": {
           "path": "matmos_hl/loop/torch.ogg",
-          "vol": 0.08,
+          "vol": 0.06,
           "pitch": 1.0,
           "looping": true,
           "pause": false
@@ -1256,7 +1256,7 @@
       "fadeout": 2.0,
       "stream": {
             "path": "matmos_hl/loop/rain_lake.ogg",
-            "vol": 0.12,
+            "vol": 0.08,
             "pitch": 1.0,
             "looping": true,
             "pause": false

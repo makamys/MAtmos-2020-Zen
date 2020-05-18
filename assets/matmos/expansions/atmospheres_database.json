@@ -895,7 +895,9 @@
         "High altitude",
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
-        "Is Underwater Indirectly (L)"
+        "Is Underwater Indirectly (L)",
+        "_INDOORS",
+        "_DEEP_INDOORS"
       ],
       "fadein": 3.0,
       "fadeout": 3.0,

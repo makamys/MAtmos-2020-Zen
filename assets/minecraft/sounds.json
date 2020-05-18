@@ -1,25 +1,4 @@
 {
-  "weather.rain": {
-    "replace": true,
-    "sounds": [
-      "silence/silence"
-    ],
-    "subtitle": "subtitles.weather.rain"
-  },
-  "weather.rain.above": {
-    "replace": true,
-    "sounds": [
-      "silence/silence"
-    ],
-    "subtitle": "subtitles.weather.rain"
-  },
-  "ambient.weather.rain": {
-    "category": "weather",
-    "replace": true,
-    "sounds": [
-      "silence/silence"
-    ]
-  },
   "matmos_hl.loop.wind_novege": {
     "category": "ambient",
     "sounds": [

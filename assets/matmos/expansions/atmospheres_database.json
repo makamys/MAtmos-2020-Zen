@@ -114,6 +114,12 @@
       "symbol": "EQUAL",
       "value": "1"
     },
+    "Keep vanilla rain": {
+      "sheet": "meta_option",
+      "index": "override_rain",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
     "Is Underwater Directly": {
       "sheet": "ply_general",
       "index": "under_water",
@@ -531,6 +537,14 @@
     "In Thunderstorm": {
       "yes": [
         "In Thunderstorm"
+      ],
+      "no": [
+        
+      ]
+    },
+    "Keep vanilla rain": {
+      "yes": [
+        "Keep vanilla rain"
       ],
       "no": [
         
@@ -1210,7 +1224,7 @@
         "Rain outdoors"
       ],
       "restrict": [
-        
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,
@@ -1227,7 +1241,8 @@
         "Rain outdoors"
       ],
       "restrict": [
-        "!In Thunderstorm"
+        "!In Thunderstorm",
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,
@@ -1245,7 +1260,8 @@
       ],
       "restrict": [
         "In Thunderstorm",
-        "_DEEP_INDOORS"
+        "_DEEP_INDOORS",
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,
@@ -1263,7 +1279,8 @@
       ],
       "restrict": [
         "!In Thunderstorm",
-        "_DEEP_INDOORS"
+        "_DEEP_INDOORS",
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,
@@ -1280,7 +1297,8 @@
         "Rain outdoors"
       ],
       "restrict": [
-        "!Small water (S)"
+        "!Small water (S)",
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,
@@ -1297,7 +1315,7 @@
         "Raining in a house with windows"
       ],
       "restrict": [
-        
+        "Keep vanilla rain"
       ],
       "fadein": 2.0,
       "fadeout": 2.0,

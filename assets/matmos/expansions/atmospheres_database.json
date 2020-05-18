@@ -896,6 +896,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
+        "Desert",
         "_INDOORS",
         "_DEEP_INDOORS"
       ],
@@ -920,6 +921,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
+        "Desert",
         "_INDOORS",
         "_DEEP_INDOORS"
       ],
@@ -942,6 +944,7 @@
         "Is Underwater Directly",
         "Is Underwater Indirectly (S)",
         "Is Underwater Indirectly (L)",
+        "Desert",
         "_INDOORS",
         "_DEEP_INDOORS"
       ],

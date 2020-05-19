@@ -89,15 +89,6 @@
       }
     ]
   },
-  "matmos_hl.loop.torch_nobass": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "loop/torch_nobass",
-      "stream": true
-      }
-    ]
-  },
   "matmos_hl.loop.ice": {
     "category": "ambient",
     "sounds": [

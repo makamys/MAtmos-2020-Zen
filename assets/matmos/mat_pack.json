@@ -7,6 +7,6 @@
 		"website"	   : "https://github.com/makamys/MAtmos"
 	},
   "uniquename" : "makamys.zen",
-  "version"    : "1.2",
+  "version"    : "1.2.1",
   "updatejson": "https://raw.githubusercontent.com/makamys/MAtmos/master/updatejson/update-mat_zen.json"
 }

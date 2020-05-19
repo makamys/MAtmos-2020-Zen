@@ -1074,8 +1074,7 @@
     },
     "Small water": {
       "allow": [
-        "Small water (S)",
-        "Small water (R)"
+        "Small water (S)"
       ],
       "restrict": [
         "Sea",
@@ -1096,7 +1095,6 @@
     "Large water": {
       "allow": [
         "Large water (S)",
-        "Large water (R)",
         "Large water (L)"
       ],
       "restrict": [
@@ -1119,7 +1117,6 @@
     "Sea": {
       "allow": [
         "Large water (S)",
-        "Large water (R)",
         "Large water (L)"
       ],
       "restrict": [

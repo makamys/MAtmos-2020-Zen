@@ -282,6 +282,12 @@
       "symbol": "GREATER",
       "value": "127"
     },
+    "User wants high altitude ambience": {
+      "sheet": "meta_option",
+      "index": "altitudes_high",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
     "ZZZ DEBUG TRUE": {
       "sheet": "meta_mod",
       "index": "mod_tick",
@@ -653,7 +659,10 @@
       ]
     },
     "High altitude": {
-      "yes": ["Y>100"],
+      "yes": [
+        "Y>100",
+        "User wants high altitude ambience"
+        ],
       "no": [
         "In Nether"
       ]

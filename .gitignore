@@ -14,3 +14,5 @@ run/
 /*Audio files*/
 *.ogg
 *.WAV
+
+*.zip

@@ -1,4 +1,5 @@
-[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/MAtmos-2020-Zen/releases)
+[![releases](https://img.shields.io/badge/-⬇%20releases-brightgreen)](https://github.com/makamys/MAtmos-2020-Zen/releases)
+[![CurseForge](https://shields.io/badge/CurseForge-555555?logo=curseforge)](https://www.curseforge.com/minecraft/texture-packs/matmos-2020-zen)
 
 # MAtmos 2020 "Zen"
 The flagship soundpack, featuring seamless loops and indoors/outdoors variations for ambiences. It aims to add high quality sounds that enhance the atmosphere without feeling out of place. (MAtmos 34 or higher required.)
